@@ -3,7 +3,7 @@
 using namespace std;
 
 int main() {
-    string n, m, d; 
+    string n, m, d, w; 
     int id; 
     
  
@@ -28,6 +28,6 @@ int main() {
     getline(cin, d); 
     
     cout << "Fahsai: " << d << "....that is OK!!! I'm looking forward to watching " << m << " with you." << endl;
-    cout << "Luke Skywalker: May the Force be with you krub" << endl;
+    cout << n << ": "; getline (cin,w);
     cout << "Fahsai: 555+ see you " << d << ". Bye Bye \\(^ ^)/" << endl;
 }
